@@ -1,0 +1,8 @@
+;MOD_ID|hev.ImprobabilityDrive
+;MOD_NAME|Infinite Improbability Drive
+;AUTHOR|__hev
+;MOD_ZIP_NAME|InfiniteImprobabilityDrive.zip
+
+[center][b]Infinite Improbability Drive[/b][/center]
+
+Adds two new equipment items based off of the Infinite Improbability Drive from The Hitchhiker's Guide to the Galaxy

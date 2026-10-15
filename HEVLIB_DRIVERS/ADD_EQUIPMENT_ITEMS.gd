@@ -1,0 +1,14 @@
+const _000 = {
+	"system":"IMPROBDRIVE_SYSTEM_FINITE_DRIVE",
+	"price":7500000,
+	"equipment_type":"INFINITE_PROBABILITY_DRIVE",
+	"slot_type":"INFINITE_PROBABILITY_DRIVE",
+}
+
+const _001 = {
+	"system":"IMPROBDRIVE_SYSTEM_INFINITE_DRIVE",
+	"price":25000000,
+	"equipment_type":"INFINITE_PROBABILITY_DRIVE",
+	"slot_type":"INFINITE_PROBABILITY_DRIVE",
+}
+

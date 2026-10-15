@@ -1,0 +1,47 @@
+[mod_information]
+
+name="IMPROBDRIVE_NAME"
+id="hev.ImprobabilityDrive"
+description="IMPROBDRIVE_DESC"
+brief="IMPROBDRIVE_BRIEF"
+author="__hev"
+
+[version]
+
+version_major=1
+version_minor=0
+version_bugfix=0
+
+[configs]
+
+IMPROBDRIVE_CONFIG_SECT_MAIN={
+"improb_drive_enceladus_chance": {
+"default": 0.1,
+"description": "IMPROBDRIVE_CONFIG_ENCELADUS_CHANCE_DESC",
+"display_order_position": 1,
+"max": 1.0,
+"name": "IMPROBDRIVE_CONFIG_ENCELADUS_CHANCE",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+},
+"improb_drive_finite_chance": {
+"default": 0.5,
+"description": "IMPROBDRIVE_CONFIG_FINITE_CHANCE_DESC",
+"display_order_position": 0,
+"max": 1.0,
+"name": "IMPROBDRIVE_CONFIG_FINITE_CHANCE",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+}
+}
+
+[manifest_definitions]
+
+manifest_version=2.2
+dependancy_mod_ids=[ {
+"blocking": true,
+"minimum_version": [ 1, 16, 31 ],
+"mod_id": "hev.LIBRARY"
+} ]

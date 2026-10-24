@@ -8,10 +8,11 @@ func getCourseDestinations(all = false):
 		outreg[i] = out[i]
 		if not added and i == "DESTINATION_ENCELADUS":
 			added = true
-			if Tool.claim(playerShip) and playerShip.getConfig("infinite_probability_drive.equipment.type") == "IMPROBDRIVE_SYSTEM_INFINITE_DRIVE":
-				outreg["IMPROBDRIVE_DESTINATION_INF_PROBABILITY"] = {
-					"vector": Vector2( - 1000000000000, 1500000),
-					"time": null
-				}
+			if Tool.claim(playerShip):
+				if playerShip.getConfig("infinite_probability_drive.equipment.type") == "IMPROBDRIVE_SYSTEM_INFINITE_DRIVE":
+					outreg["IMPROBDRIVE_DESTINATION_INF_PROBABILITY"] = {
+						"vector": Vector2( - 1000000000000, 1500000),
+						"time": null
+					}
 				Tool.release(playerShip)
 	return outreg
